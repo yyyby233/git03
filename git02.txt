@@ -1,1 +1,15 @@
 分支操作
+
+
+echo "# git03" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yyyby233/git03.git
+git push -u origin main
+
+
+git remote add origin https://github.com/yyyby233/git03.git
+git branch -M main
+git push -u origin main
